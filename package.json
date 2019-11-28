@@ -1,0 +1,24 @@
+{
+  "name": "starwars-name",
+  "version": "1.0.0",
+  "description": "Get random Star Wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvearagao/starwars-name.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "Kelve Aragão <kelvearagao@gmail.com> (https://kelvearagao.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvearagao/starwars-name/issues"
+  },
+  "homepage": "https://github.com/kelvearagao/starwars-name#readme"
+}
