@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kelvearagao/starwars-name/issues"
   },
-  "homepage": "https://github.com/kelvearagao/starwars-name#readme"
+  "homepage": "https://github.com/kelvearagao/starwars-name#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
 }
