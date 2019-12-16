@@ -1,14 +1,16 @@
 {
   "name": "@kelvearagao/starwars-name",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release --debug"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kelvearagao/starwars-name.git"
+    "url": "https://github.com/kelvearagao/starwars-name.git"
   },
   "keywords": [
     "random",
@@ -26,6 +28,12 @@
   },
   "devDependencies": {
     "chai": "4.2.0",
-    "mocha": "6.2.2"
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "mocha": "6.2.2",
+    "semantic-release": "^15.13.31"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
