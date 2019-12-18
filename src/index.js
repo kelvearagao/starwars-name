@@ -8,7 +8,7 @@ module.exports = {
 };
 
 function random(number) {
-    console.log('--> random number', number)
+    console.log('@--> random number', number)
     
     if (number === undefined) {
         return getRandomItem();
