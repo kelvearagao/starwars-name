@@ -6,12 +6,12 @@ cache:
 notifications:
   email: false
 node_js:
-  - iojs
+  - 10.15.3
 before_install:
   - npm i -g npm@^2.0.0
 before_script:
-  - npm prune
+    - npm prune
 script:
-  - npm run test
+  - npm run test:single
 after_success:
   - npm run semantic-release
